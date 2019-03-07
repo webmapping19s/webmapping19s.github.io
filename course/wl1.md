@@ -18,4 +18,4 @@
 * jeden erfolgreichen Schritt in die `index.html` Datei kopieren und mit *Beautify file* formatieren
 * *stagen* und mit einer sprechenden commit-Message *committen* (z.B. `1/16 What is HTML?`)
 
-Bis spätestens **Mittwoch, 13. März 2019 Mittags** soll die Workload unter `https://username.github.io/workload/1/index.html` errreichbar sein.
+Bis spätestens **Mittwoch, 13. März 2019 mittags** soll die Workload unter `https://username.github.io/workload/1/index.html` errreichbar sein.
