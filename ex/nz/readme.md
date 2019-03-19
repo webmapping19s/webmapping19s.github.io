@@ -31,6 +31,6 @@ https://username.github.io/nz/index.html
 | 16 | Picton                    | hofmjani              |
 | 17 | Wellington                | isabellebeutelspacher |
 | 18 | Napier                    | ibk94                 |
-| 19 | Taupo                     | johannesseichter      |
+| 19 | Taupo                     | openwebcc             |
 | 20 | Rotorua                   | elleluk               |
 | 21 | Auckland                  | nadipk                |
