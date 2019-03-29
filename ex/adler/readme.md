@@ -31,3 +31,7 @@ https://username.github.io/adler/index.html
 | O7 | robinkohrs            | Sudetendeutsche Hütte - Kalser Tauernhaus                       |
 | O8 | larstimo              | Kalser Tauernhaus - Stüdlhütte                                  |
 | O9 | veitba                | Stüdlhütte - Lucknerhaus                                        |
+
+## Adlerblicke Koordinaten
+
+siehe `adlerblicke.ods` oder `adlerblicke.xlsx`
