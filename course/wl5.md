@@ -2,7 +2,7 @@
 
 ## Die Übersichtskarte der Neuseeland Reise verfeinern
 
-Nachdem wir bei der Adlerweg Karte zusätzliche Kartenlayer und Funktionalität implementiert haben liegt es nahe, das auch bei der Neuseelandreise zu tun indem ihr:
+Nachdem wir bei der Adlerweg Karte zusätzliche Kartenlayer und Funktionalitäten implementiert haben liegt es nahe, das auch bei der Neuseelandreise zu tun indem ihr:
 
 1. zusätzlich zur OpenstreetMap auch die drei Hintergrundlayer von Stamen maps dort einbaut und über eine *Layer control* auswählbar macht
 
