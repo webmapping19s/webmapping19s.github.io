@@ -1,4 +1,4 @@
-### Workload für die Wochen vom 10. April bis 2. Mai 2019
+### Workload für die Wochen vom 10. April bis 8. Mai 2019
 
 ## Cheat sheets zu ausgewählten Themen
 
@@ -8,4 +8,4 @@ Die Liste mit den zufällig zugeteilten Themen findet ihr hier:
 
 https://webmapping.github.io/2019/course/wl6_themen.html
 
-Bis spätestens **Mittwoch, 2. Mai 2019 mittags** soll euer *Cheat sheet* unter dem Link der Themenseite (Spalte *Git-User*) erreichbar sein.
+Bis spätestens **Mittwoch, 8. Mai 2019 mittags** soll euer *Cheat sheet* unter dem Link der Themenseite (Spalte *Git-User*) erreichbar sein.
