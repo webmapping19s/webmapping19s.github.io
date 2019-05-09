@@ -10,7 +10,7 @@ Unser AWS-Tirol Karte braucht noch etwas Inhalt und Farbe und deshalb sollt ihr 
 
     Die Farbpaletten entnehmen wir der Einfachheit halber den Karten von WetterOnline (https://www.wetteronline.at/wetter-aktuell-farbkarte)
 
-    * **Wind**: https://st.wetteronline.de/mdr/p_aktuell_local/1.0.145/images/symbology/www/ic_Temperature_562x76.svg , Achtung: die Beaufortskala die dort verwendet wird müsst ihr in km/h umrechnen
+    * **Wind**: https://st.wetteronline.de/mdr/p_aktuell_local/1.0.145/images/symbology/www/ic_Wind_390x76.svg , Achtung: die Beaufortskala die dort verwendet wird müsst ihr in km/h umrechnen
 
     * **Temperatur**: https://st.wetteronline.de/mdr/p_aktuell_local/1.0.145/images/symbology/www/ic_Temperature_562x76.svg
 
