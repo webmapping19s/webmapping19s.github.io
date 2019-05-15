@@ -39,3 +39,4 @@ Alle drei Bestandteile müssen positiv absolviert werden.
 * [OLAT-Kurs](https://lms.uibk.ac.at/auth/RepositoryEntry/4466606559)
 * [https://github.com/webmapping](https://github.com/webmapping)
 * [https://webmapping.github.io](https://webmapping.github.io)
+* [https://webmapping.github.io/2019/ex/wien.ogd.template.zip](https://webmapping.github.io/2019/ex/wien.ogd.template.zip)
