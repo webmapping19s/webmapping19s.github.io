@@ -11,7 +11,7 @@ Nach dem Muster der Sehenswürdigkeiten Karte Wiens sollt ihr eine Karte mit öf
 * Icon für Standorte: siehe https://digitales.wien.gv.at/site/icons/
 
 * Funktionalitäten:
-    * Standorte in einem Overlay zum Ein- und Ausschalten
+    * Standorte in einem *Markercluster* Overlay zum Ein- und Ausschalten
     * für jeden Standort ein Popup mit den Attributen `NAME` und `ADRESSE`
     * den Eingangsview auf die Standorte setzen
     * Suche nach Standorten im Attribut `NAME` über *leaflet-search*
