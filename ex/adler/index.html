@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Adlerweg - Etappe 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="blicke.js"></script>
+
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.js"></script>
+    <link href="plugins/Control.Coordinates.css" rel="stylesheet">
+    <script src="plugins/Control.Coordinates.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.4.0/gpx.min.js"></script>
+    <script src="https://unpkg.com/d3@4.13.0/build/d3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@latest/leaflet-elevation.css" />
+    <script src="https://unpkg.com/@raruto/leaflet-elevation@latest/leaflet-elevation.js"></script>
+
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h3 class="white">Adlerweg</h3>
+        <h4 class="white">Tirols bekanntester Wanderweg</h4>
+        <h2>Gaudeamushütte - Hintersteiner See</h2>
+    </header>
+
+    <div class="author gray">
+        <img src="images/user.jpg" alt="Maori Krieger mit herausgestreckter Zunge">
+        <address>
+            <a href="mailto:klaus.foerster@uibk.ac.at">Klaus Förster</a>
+            <a href="https://github.com/openwebcc">github.com/openwebcc</a>
+        </address>
+    </div>
+
+    <hr />
+
+    <main>
+        <h1>Gaudeamushütte - Hintersteiner See</h1>
+        <p>Der Weg ist das Ziel, aber bei dieser Etappe kann man sich vor allem an sehr warmen Tagen zur Erbauung das Tagesziel stets vor Augen halten: Umthront von den kaiserlichen Bergmajestäten geht es durch Bergwiesen, Latschen-Hänge, Buchen-Mischwälder und mit kleinen Fels-Klettereien über die Gruttenhütte zum romantischen Hintersteiner See, der zu den schönsten und saubersten Seen Tirols zählt. Er ist 56 Hektar groß und 36 Meter tief und befindet sich in Privatbesitz, baden ist jedoch beim Strandbad am Nordostufer erlaubt. Vorher noch den Finger in Weihwasser tauchen, denn in der Bärnstatt-Kapelle gegenüber vom Gasthof Bärnstatt sind die barocken Deckenfresken von Matthias Kirchner sehenswert. (Quelle: <a
+                href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-2-gaudeamushuette-hintersteiner-see">Adlerweg Homepage</a>)</p>
+
+        <h2>Gaudeamushütte</h2>
+        <figure>
+            <figcaption class="gray">
+                    <i class="fas fa-camera"></i>
+                Blick auf die Gaudeamushütte</figcaption>
+            <img src="images/attraction.jpg" alt="Gaudeamushütte mit Sonnenschirmen">
+        </figure>
+        <p>1899 wurde von der Akademischen Alpenvereinssektion Berlin unterhalb des Kübelkars die Gaudeamushütte erbaut. Sie blieb bis 1911 unbewirtschaftet, wurde anschließend zumindest zeitweise an die Sektion Kitzbühel verpachtet. 1924 zerstörte eine Lawine die Gaudeamushütte. Noch im selben Jahr wurde übergangsweise eine provisorische Baracke errichtet und einfach bewirtschaftet. 1927 erbaute die Sektion Berlin rund 300 Meter weiter östlich die jetzige Hütte. Bemerkenswert ist, dass sie den Zweiten Weltkrieg ohne Schäden überstand und danach nur selten die Pächter wechselten. Nach der Übernahme durch die Sektion Main-Spessart wurde die Hütte 2003 erneuert und um einen Anbau erweitert. Seit der Saison 2004 sind Martin und Anni Leichtfried die jetzigen Pächter. (Quelle: <a href="https://de.wikipedia.org/wiki/Gaudeamush%C3%BCtte">Wikipedia</a>)</p>
+
+        <h3>Übersichtskarte</h3>
+        <div>
+          Routen Statistik: Niedrigster Punkt: <span id="min"></span> m,
+            Höchster Punkt: <span id="max"></span> m, 
+            Höhenunterschied: <span id="diff"></span> m
+        </div> 
+        <div id="map"
+            data-lat1="47.549167"
+            data-lng1="12.324722"
+            data-title1="Gaudeamushütte"
+            data-lat2="47.533333"
+            data-lng2="12.216667"
+            data-title2="Hintersteiner See">
+        </div>
+        <div id="elevation-div"></div>
+
+        <h3>Links</h3>
+        <ul>
+            <li><a href="https://www.tirol.at/reisefuehrer/sport/wandern/wandertouren/a-adlerweg-etappe-2-gaudeamushuette-hintersteiner-see">Adlerweg Etappe 2</a></li>
+            <li><a href="https://www.tirol.at/reisefuehrer/sport/wandern/adlerweg/adlerweg-starterpaket-mit-stempelblatt">Adlerweg-Starterpaket mit Tourenbuch zum Stempeln & Gewinnen</a></li>
+            <li><a href="https://de.wikipedia.org/wiki/Gaudeamush%C3%BCtte">Gaudeamushütte (Wikipedia)</a></li>
+            <li><a href="https://de.wikipedia.org/wiki/Hintersteiner_See">Hintersteiner See</a></li>
+        </ul>
+
+    </main>
+
+    <hr />
+
+    <footer>
+        <nav class="gray">
+            <a class="back" href="https://veitba.github.io/adler/" title="vorhergehender Stop">
+                <i class="fa fa-arrow-left"></i>
+                Stüdlhütte - Lucknerhaus
+            </a>
+            <a class="next" href="https://susannehentschel.github.io/adler/" title="nächster Stop">
+                Hintersteiner See - Kufstein
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
