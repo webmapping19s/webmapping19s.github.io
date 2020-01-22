@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Open Data Wien - Public WLAN-Standorte</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+    <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script> 
+    <link href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" rel="stylesheet" />
+    <link href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" rel="stylesheet" />
+
+    <script src="plugins/leaflet-search.min.js"></script> 
+    <link href="plugins/leaflet-search.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <span>Open Data Wien - Public WLAN-Standorte</span>
+        <a href="https://digitales.wien.gv.at/site/open-data/"><img src="icons/wien_logo.png" alt="StaDt Wien" /></a>
+    </header>
+    <main>
+        <h2>Public WLAN-Standorte</h2>
+        <p>Öffentliche wien.at WLAN-Standorte auf Plätzen und Freizeitarealen der Stadt ermöglichen einen kostenlosen Zugang ins Internet. Sie bieten darüber hinaus standortbezogene Informationen. Um sich mit dem wien.at Public WLAN zu verbinden, braucht es internetfähige Endgeräte wie Smartphones, Tablets oder Notebooks. Sobald die Verbindung hergestellt ist, wird automatisch die Startseite (Landingpage) aufgerufen. Hier werden Informationen zum aktuellen Standort (Stadtplan, Bezirksinfo, Veranstaltungen oder Ähnliches) angezeigt. Diese Nutzung ist ohne Registrierung rund um die Uhr möglich und funktioniert im Umkreis von rund 100 Metern. Quelle: <a href="https://digitales.wien.gv.at/site/e-government/#egovwlan">DigitalesWien</a></p>
+
+        <div id="map"></div>
+    </main>
+
+</body>
+
+</html>
