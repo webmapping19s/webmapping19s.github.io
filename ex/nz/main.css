@@ -1,0 +1,102 @@
+body {
+    max-width: 1280px;
+    margin: auto;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: url('images/header.jpg');
+    background-position: 0 50%;
+    /* background-color: lightsteelblue; */
+}
+
+header h2 {
+    font-size: 4em;
+    padding: 1em 0;
+    margin: 0;
+    color: white;
+}
+
+header h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header h4 {
+    font-size: 0.75em;
+    font-style: italic;
+    margin: 0;
+}
+
+.author {
+    text-align: center;
+}
+
+.author address {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.author img {
+    border: 4px solid white;
+    margin-top: -50px;
+    border-radius: 50%;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+main figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+main figure img {
+    width: 90%;
+}
+
+main figure figcaption {
+    float: left;
+    margin-left: -12em;
+    width: 11.5em;
+}
+
+#map {
+    width: 90%;
+    height: 360px;
+    border: 1px solid gray;
+}
+
+footer {
+    width: 100%;
+    padding: 1em 0 3em 0;
+}
+
+footer .back {
+    float: left;
+}
+footer .next {
+    float: right;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+.gray,
+.gray a:link,
+.gray a:visited {
+    color: gray;
+}
+
+@media only screen and (max-width: 900px) {
+    main figure figcaption {
+        float: none;
+        margin-left: 0;
+        width: auto;
+    }
+}

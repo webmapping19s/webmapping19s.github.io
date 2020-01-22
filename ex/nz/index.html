@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Neuseelandreise - Taupo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+
+    <link href="plugins/Control.Coordinates.css" rel="stylesheet">
+    <script src="plugins/Control.Coordinates.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.js"></script>
+
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h3>Aotearoa</h3>
+        <h4>Land der langen weißen Wolke</h4>
+        <h2>Taupo</h2>
+    </header>
+
+    <div class="author gray">
+        <img src="images/user.jpg" alt="Maori Krieger mit herausgestreckter Zunge">
+        <address>
+            <a href="mailto:klaus.foerster@uibk.ac.at">Klaus Förster</a>
+            <a href="https://github.com/openwebcc">github.com/openwebcc</a>
+        </address>
+    </div>
+
+    <hr />
+
+    <main>
+        <h1>Taupo - Die Caldera eines Supervulkans</h1>
+        <p>Die Stadt befindet sich rund 63 km südsüdwestlich von Rotorua und rund 80 km nordöstlich des Vulkans Ruapehu
+            an der Nordostseite des Lake Taupo in der Tapuaeharuru Bay. Im westlichen Teil der Stadt fließt der Waikato
+            River als einziger Abfluss des Sees nach Norden ab. Um Taupo herum befinden sich zahlreiche Thermalquellen
+            und Geothermalfelder, deren Wärmeenergie wirtschaftlich genutzt wird (Quelle: <a
+                href="https://de.wikipedia.org/wiki/Taupo_(Stadt)">Wikipedia</a>)</p>
+
+        <h2>Huka Falls</h2>
+        <figure>
+            <figcaption class="gray">
+                    <i class="fas fa-camera"></i>
+                Blick auf die Huka Falls in der Nähe von Taupo</figcaption>
+            <img src="images/attraction.jpg" alt="Schäumendes Wasser am Ende der Stromschnelle">
+        </figure>
+        <p>Die Wasserfälle bestehen aus zwei Kaskaden mit einer 235 m langen dazwischen liegenden Stromschnelle, in der
+            der Waikato River von einer Breite von zuvor rund 100 m in einer Schlucht gleich auf 15 m verengt wird. Die
+            Wassertiefe beträgt in der Schlucht rund 10 m. Beginnend von der ersten Kaskade, die knapp einen Meter
+            beträgt, schießt das Wasser in der Stromschnelle über einen Höhenunterschied von 8 m zu Tal, bevor es in der
+            zweiten Kaskade über 11 m fällt. Bei einem durchschnittlichen Wasserdurchsatz von rund 220.000 Liter pro
+            Sekunde variiert der Durchfluss je nach Wasserstand des Waikato River zwischen 32.000 Liter und 270.000
+            Liter pro Sekunde (Quelle: <a href="https://de.wikipedia.org/wiki/Huka_Falls">Wikipedia</a>)</p>
+
+        <h3>Übersichtskarte</h3>
+        <div id="map" data-lat="-38.648728" data-lng="176.089897" data-title="Huka Falls"></div>
+
+        <h3>Links</h3>
+        <ul>
+            <li><a href="https://www.lovetaupo.com/">Welcome to Taupō | New Zealand Tourism Destination</a></li>
+            <li><a href="https://www.lovetaupo.com/en/discover/highlights/huka-falls/">Huka Falls | Love Taupo</a></li>
+            <li><a href="https://www.youtube.com/watch?v=bsuodkAXMKo">Video of kayaking Huka Falls</a></li>
+            <li><a href="https://www.wairakeitouristpark.co.nz/attractions/wairakei-natural-thermal-valley/">Wairakei
+                    Natural Thermal Valley</a></li>
+        </ul>
+
+    </main>
+
+    <hr />
+
+    <footer>
+        <nav class="gray">
+            <a class="back" href="https://ibk94.github.io/nz/" title="vorhergehender Stop">
+                <i class="fa fa-arrow-left"></i>
+                Napier
+            </a>
+            <a class="next" href="https://elleluk.github.io/nz/" title="nächster Stop">
+                Rotorua
+                <i class="fa fa-arrow-right"></i>
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
