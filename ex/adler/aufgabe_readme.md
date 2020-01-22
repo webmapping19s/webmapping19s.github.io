@@ -34,4 +34,4 @@ https://username.github.io/adler/index.html
 
 ## Adlerblicke Koordinaten
 
-siehe `adlerblicke.ods` oder `adlerblicke.xlsx`
+siehe `aufgabe_adlerblicke.ods` oder `aufgabe_adlerblicke.xlsx`
