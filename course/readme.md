@@ -35,7 +35,7 @@ Alle drei Bestandteile müssen positiv absolviert werden.
 * Kommunikation über die @uibk.ac.at Adresse
 
 ### Links
-* [Linksammlung](https://webmapping.github.io/2019/course/links.html)
+* [Linksammlung](links.html)
 * [OLAT-Kurs](https://lms.uibk.ac.at/auth/RepositoryEntry/4466606559)
-* [https://github.com/webmapping](https://github.com/webmapping)
-* [https://webmapping.github.io](https://webmapping.github.io)
+* [https://github.com/webmapping19s](https://github.com/webmapping19s)
+* [https://webmapping19s.github.io](https://webmapping19s.github.io)
